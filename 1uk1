@@ -1,0 +1,11 @@
+info: checking for self-updates
+root@MinimaBubble:~# rustup target add wasm32-unknown-unknown --toolchain nightly
+info: downloading component 'rust-std' for 'wasm32-unknown-unknown'
+info: installing component 'rust-std' for 'wasm32-unknown-unknown'
+ 16.7 MiB /  16.7 MiB (100 %)  14.0 MiB/s in  1s ETA:  0s
+root@MinimaBubble:~# wget -O gearfinal1.sh https://raw.githubusercontent.com/Zhoas/gearnodetesttest/main/gearfinal1.sh | bash && chmod +x gearfinal1.sh && bash -x gearfinal1.sh
+--2022-03-29 09:46:20--  https://raw.githubusercontent.com/Zhoas/gearnodetesttest/main/gearfinal1.sh
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.111.133, 185.199.110.133, 185.199.109.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.111.133|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2022-03-29 09:46:21 ERROR 404: Not Found.
